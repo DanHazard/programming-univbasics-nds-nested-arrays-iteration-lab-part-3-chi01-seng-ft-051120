@@ -4,11 +4,8 @@ def join_nested_strings(src)
   
   array_of_str = []
   x = 0
-  
   while x < src.length do
-    
     y = 0
-    
     while y < src[x].length do
       if src[x][y].is_a?(String)
         array_of_str << src[x][y]

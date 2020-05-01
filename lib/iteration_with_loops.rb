@@ -26,6 +26,6 @@ def join_nested_strings(src)
     
   end
   
-  array_of_str
+  array_of_str.join()
   
 end
